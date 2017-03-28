@@ -15,6 +15,7 @@ root = TK.Tk()
 center_window(600, 400)
 root.geometry("700x400")
 var = TK.IntVar()
+root.resizable(0,0)
 
 #functions for close and help
 def close():
